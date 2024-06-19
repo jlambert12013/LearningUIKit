@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		B62E815E2C229F3600AA8909 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62E815D2C229F3600AA8909 /* AppDelegate.swift */; };
 		B62E81602C229F3600AA8909 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62E815F2C229F3600AA8909 /* SceneDelegate.swift */; };
-		B62E81622C229F3600AA8909 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62E81612C229F3600AA8909 /* FirstScreen.swift */; };
+		B62E81622C229F3600AA8909 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62E81612C229F3600AA8909 /* TopViewController.swift */; };
 		B62E81672C229F3700AA8909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62E81662C229F3700AA8909 /* Assets.xcassets */; };
 		B62E816A2C229F3700AA8909 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B62E81692C229F3700AA8909 /* Base */; };
-		B62E81722C22A9E400AA8909 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62E81712C22A9E400AA8909 /* SecondScreen.swift */; };
+		B62E81722C22A9E400AA8909 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62E81712C22A9E400AA8909 /* SecondViewController.swift */; };
+		B62E81762C22ADC900AA8909 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B62E81752C22ADC900AA8909 /* FirebaseAuth */; };
+		B62E81782C22ADC900AA8909 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B62E81772C22ADC900AA8909 /* FirebaseFirestore */; };
+		B62E817E2C22B34D00AA8909 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B62E817D2C22B34D00AA8909 /* GoogleSignIn */; };
+		B62E81802C22B34D00AA8909 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B62E817F2C22B34D00AA8909 /* GoogleSignInSwift */; };
+		B62E81832C22B6C700AA8909 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B62E81822C22B6C700AA8909 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B62E815A2C229F3600AA8909 /* TheParkBand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheParkBand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62E815D2C229F3600AA8909 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B62E815F2C229F3600AA8909 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B62E81612C229F3600AA8909 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		B62E81612C229F3600AA8909 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		B62E81662C229F3700AA8909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B62E81692C229F3700AA8909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B62E816B2C229F3700AA8909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B62E81712C22A9E400AA8909 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		B62E81712C22A9E400AA8909 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B62E81822C22B6C700AA8909 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B62E81762C22ADC900AA8909 /* FirebaseAuth in Frameworks */,
+				B62E81782C22ADC900AA8909 /* FirebaseFirestore in Frameworks */,
+				B62E817E2C22B34D00AA8909 /* GoogleSignIn in Frameworks */,
+				B62E81802C22B34D00AA8909 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,13 +66,14 @@
 		B62E815C2C229F3600AA8909 /* TheParkBand */ = {
 			isa = PBXGroup;
 			children = (
+				B62E81822C22B6C700AA8909 /* GoogleService-Info.plist */,
+				B62E816B2C229F3700AA8909 /* Info.plist */,
 				B62E815D2C229F3600AA8909 /* AppDelegate.swift */,
+				B62E81612C229F3600AA8909 /* TopViewController.swift */,
 				B62E815F2C229F3600AA8909 /* SceneDelegate.swift */,
-				B62E81612C229F3600AA8909 /* FirstScreen.swift */,
-				B62E81712C22A9E400AA8909 /* SecondScreen.swift */,
+				B62E81712C22A9E400AA8909 /* SecondViewController.swift */,
 				B62E81662C229F3700AA8909 /* Assets.xcassets */,
 				B62E81682C229F3700AA8909 /* LaunchScreen.storyboard */,
-				B62E816B2C229F3700AA8909 /* Info.plist */,
 			);
 			path = TheParkBand;
 			sourceTree = "<group>";
@@ -83,6 +94,12 @@
 			dependencies = (
 			);
 			name = TheParkBand;
+			packageProductDependencies = (
+				B62E81752C22ADC900AA8909 /* FirebaseAuth */,
+				B62E81772C22ADC900AA8909 /* FirebaseFirestore */,
+				B62E817D2C22B34D00AA8909 /* GoogleSignIn */,
+				B62E817F2C22B34D00AA8909 /* GoogleSignInSwift */,
+			);
 			productName = TheParkBand;
 			productReference = B62E815A2C229F3600AA8909 /* TheParkBand.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,10 @@
 				Base,
 			);
 			mainGroup = B62E81512C229F3600AA8909;
+			packageReferences = (
+				B62E81742C22ADC900AA8909 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B62E817C2C22B34D00AA8909 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = B62E815B2C229F3600AA8909 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +148,7 @@
 			files = (
 				B62E81672C229F3700AA8909 /* Assets.xcassets in Resources */,
 				B62E816A2C229F3700AA8909 /* Base in Resources */,
+				B62E81832C22B6C700AA8909 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B62E81622C229F3600AA8909 /* FirstScreen.swift in Sources */,
-				B62E81722C22A9E400AA8909 /* SecondScreen.swift in Sources */,
+				B62E81622C229F3600AA8909 /* TopViewController.swift in Sources */,
+				B62E81722C22A9E400AA8909 /* SecondViewController.swift in Sources */,
 				B62E815E2C229F3600AA8909 /* AppDelegate.swift in Sources */,
 				B62E81602C229F3600AA8909 /* SceneDelegate.swift in Sources */,
 			);
@@ -291,7 +313,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,6 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = app.TheParkBand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -325,7 +348,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,6 +356,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = app.TheParkBand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -367,6 +391,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B62E81742C22ADC900AA8909 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.0;
+			};
+		};
+		B62E817C2C22B34D00AA8909 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B62E81752C22ADC900AA8909 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B62E81742C22ADC900AA8909 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B62E81772C22ADC900AA8909 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B62E81742C22ADC900AA8909 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B62E817D2C22B34D00AA8909 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B62E817C2C22B34D00AA8909 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		B62E817F2C22B34D00AA8909 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B62E817C2C22B34D00AA8909 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B62E81522C229F3600AA8909 /* Project object */;
 }
