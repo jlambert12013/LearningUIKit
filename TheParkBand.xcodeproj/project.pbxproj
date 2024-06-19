@@ -12,6 +12,7 @@
 		B62E81622C229F3600AA8909 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62E81612C229F3600AA8909 /* FirstScreen.swift */; };
 		B62E81672C229F3700AA8909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62E81662C229F3700AA8909 /* Assets.xcassets */; };
 		B62E816A2C229F3700AA8909 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B62E81692C229F3700AA8909 /* Base */; };
+		B62E81722C22A9E400AA8909 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62E81712C22A9E400AA8909 /* SecondScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B62E81662C229F3700AA8909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B62E81692C229F3700AA8909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B62E816B2C229F3700AA8909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62E81712C22A9E400AA8909 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B62E815D2C229F3600AA8909 /* AppDelegate.swift */,
 				B62E815F2C229F3600AA8909 /* SceneDelegate.swift */,
 				B62E81612C229F3600AA8909 /* FirstScreen.swift */,
+				B62E81712C22A9E400AA8909 /* SecondScreen.swift */,
 				B62E81662C229F3700AA8909 /* Assets.xcassets */,
 				B62E81682C229F3700AA8909 /* LaunchScreen.storyboard */,
 				B62E816B2C229F3700AA8909 /* Info.plist */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B62E81622C229F3600AA8909 /* FirstScreen.swift in Sources */,
+				B62E81722C22A9E400AA8909 /* SecondScreen.swift in Sources */,
 				B62E815E2C229F3600AA8909 /* AppDelegate.swift in Sources */,
 				B62E81602C229F3600AA8909 /* SceneDelegate.swift in Sources */,
 			);
